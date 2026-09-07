@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+    function calculateSum() {
+        let num1 = parseFloat(document.getElementById("num1").value);
+        let num2 = parseFloat(document.getElementById("num2").value);
+        let sum = num1 + num2;
+        alert("The sum is: " + sum);
+    }
+</script>
+
+<h1>Sum Calculator</h1>
+
+<input type="number" id="num1" />
+
+<input type="number" id="num2" />
+
+<button id="calculateButton" onclick="calculateSum()">Calculate Sum</button>

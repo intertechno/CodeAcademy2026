@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Envelope xmlns="http://www.intentia.com/MBM"
+    xmlns:env="http://www.intentia.com/MBM_Envelope"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.intentia.com/MBM MBM_Envelope_1_EBM_XML_EBM1_order.xsd">
+    <Header>
+        <env:delivery>
+            <env:to>
+                <env:address>prod</env:address>
+            </env:to>
+            <env:from>
+                <env:address>wms</env:address>
+            </env:from>
+        </env:delivery>
+        <env:properties>
+            <env:identity>logger_948_0181820000001057</env:identity>
+            <env:sentAt>2021-03-02T10:23:51+02:00</env:sentAt>
+            <env:expiresAt/>
+            <env:topic/>
+        </env:properties>
+        <env:manifest>
+            <env:reference uri="#order@EBM1">
+                <env:description/>
+            </env:reference>
+        </env:manifest>
+        <env:process>
+            <env:type>0</env:type>
+            <env:instance/>
+            <env:handle/>
+        </env:process>
+    </Header>
+    <Body>
+        <msg dest="prod" src="wms">
+            <shipment messageid="1" id="1053447" routeid="389997" routedesc="ERIKOISMYYNTI" door="" maxheight="220" bulk="03" pickingseq="dropping" departuretime="202103040200" stagingarea=" " shipmenttype=" " terminal= "15" target=" " fwagent="AUTOILIJA - CARRIER" taddress1 = " " taddress2 = " "></shipment>
+            <order id="00013304060001" shipmentid="1053447" droppingseq="0" pickingseq="1" customerpallet="false">
+                <info1 />
+                <info2>15 Vantaan term</info2>
+                <info3 />
+                <customerinfo desc="Minuuttibaari" id="30300405" customerid=" " address1="Asema-aukio" address2="00100 HELSINKI" phone=" " groupname="." printbestbefore = "false" printproductbatch = "false" language = "358" companyname = " " licencenumber = " " receivestorageid = "0110858-2" service = " " salesorder = "0013890672" ordernumber = " " reference = " " orderhandler = " " routenumber = "389997" droppingsequence = " " deliverynumber = "13304060" driver = " " customerstack="false" fifoused="true" privatelabel="0" deliverydate="20210304" taxfreecode = " " postno = "00100" city = "HELSINKI" country= "FI"/>
+                <orderline hyva="8594404110127" id="0013890672100" pickingarea="31001" customertext=" ">
+                    <product id="2431001" qty="240" salesunitdesc=" "/>
+                </orderline>
+            </order>
+        </msg>
+    </Body>
+</Envelope>

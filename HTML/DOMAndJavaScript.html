@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+        const nappi = document.createElement("button");
+
+        // Set button properties and styles
+        nappi.textContent = "Click me!";
+        nappi.style.backgroundColor = "blue";
+        nappi.style.fontSize = "22px";
+        nappi.style.color = "white";
+        nappi.style.padding = "10px 20px";
+
+        // add click event listener to the button
+        nappi.addEventListener("click", () => {
+            alert("Hello JavaScript!");
+        });
+        /*
+        nappi.onclick = function() {
+            alert("Hello JavaScript!");
+        };
+        */
+
+        // show button on the page
+        document.body.appendChild(nappi);
+    </script>
+</html>

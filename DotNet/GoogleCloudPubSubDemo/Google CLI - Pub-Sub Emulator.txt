@@ -1,0 +1,11 @@
+Google CLI - Pub-Sub Emulator startup
+-------------------------------------
+
+gcloud beta emulators pubsub env-init  --> will output the following (or similar) command
+
+$env:PUBSUB_EMULATOR_HOST="localhost:8085"
+$env:PUBSUB_PROJECT_ID="training-project"
+
+gcloud auth application-default login
+
+gcloud beta emulators pubsub start --project=training-project

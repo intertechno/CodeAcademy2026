@@ -1,0 +1,37 @@
+Date,Product,Category,Customer,Region,Quantity,UnitPrice,Discount
+2026-01-05,Laptop,Electronics,C001,North,1,999.0,0.05
+2026-01-07,Office Chair,Furniture,C002,South,2,189.0,0.0
+2026-01-10,Coffee Maker,Home Appliances,C003,East,1,129.0,0.1
+2026-01-15,Running Shoes,Sports,C004,West,2,89.0,0.05
+2026-01-19,Laptop,Electronics,C005,East,1,999.0,0.1
+2026-01-24,Desk Lamp,Furniture,C006,North,3,49.0,0.0
+2026-02-03,Coffee Maker,Home Appliances,C002,South,2,129.0,0.05
+2026-02-08,Running Shoes,Sports,C007,North,1,89.0,0.0
+2026-02-11,Laptop,Electronics,C003,West,1,999.0,0.0
+2026-02-16,Office Chair,Furniture,C008,East,1,189.0,0.1
+2026-02-20,Desk Lamp,Furniture,C001,South,2,49.0,0.05
+2026-02-25,Blender,Home Appliances,C009,North,1,79.0,0.0
+2026-03-04,Running Shoes,Sports,C010,East,3,89.0,0.1
+2026-03-09,Laptop,Electronics,C004,North,1,999.0,0.05
+2026-03-12,Blender,Home Appliances,C005,West,2,79.0,0.0
+2026-03-18,Office Chair,Furniture,C006,South,1,189.0,0.05
+2026-03-22,Coffee Maker,Home Appliances,C007,East,1,129.0,0.0
+2026-03-28,Desk Lamp,Furniture,C008,North,4,49.0,0.1
+2026-04-02,Laptop,Electronics,C009,South,1,999.0,0.0
+2026-04-06,Running Shoes,Sports,C010,West,2,89.0,0.05
+2026-04-11,Office Chair,Furniture,C001,North,2,189.0,0.1
+2026-04-15,Coffee Maker,Home Appliances,C002,East,1,129.0,0.0
+2026-04-21,Blender,Home Appliances,C003,South,2,79.0,0.05
+2026-04-27,Desk Lamp,Furniture,C004,West,2,49.0,0.0
+2026-05-03,Running Shoes,Sports,C005,North,2,89.0,0.0
+2026-05-07,Laptop,Electronics,C006,East,1,999.0,0.05
+2026-05-13,Coffee Maker,Home Appliances,C007,West,2,129.0,0.1
+2026-05-18,Office Chair,Furniture,C008,South,1,189.0,0.0
+2026-05-23,Desk Lamp,Furniture,C009,East,3,49.0,0.05
+2026-05-29,Blender,Home Appliances,C010,North,2,79.0,0.0
+2026-06-04,Laptop,Electronics,C001,West,1,999.0,0.1
+2026-06-08,Office Chair,Furniture,C002,East,2,189.0,0.05
+2026-06-12,Running Shoes,Sports,C003,South,1,89.0,0.0
+2026-06-17,Coffee Maker,Home Appliances,C004,North,2,129.0,0.05
+2026-06-22,Blender,Home Appliances,C005,East,1,79.0,0.1
+2026-06-28,Desk Lamp,Furniture,C006,South,4,49.0,0.0

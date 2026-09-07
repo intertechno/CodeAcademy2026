@@ -1,0 +1,29 @@
+Practice 65 - Docker instructions
+---------------------------------
+
+1. docker build -t cloudrun-training:v1 .
+
+2. docker run --rm `
+    -p 8080:8080 `
+    -e PORT=8080 `
+    cloudrun-training:v1
+
+
+
+=====================================
+Part 2: Pushing to Google Cloud Artifact Registry
+=====================================
+
+Docker commands for pushing to Google Artifact Registry
+-------------------------------------------------------
+Artifact Registry address: europe-west1-docker.pkg.dev/balmy-mark-240704/training-containers
+Project ID: balmy-mark-240704
+
+
+Commands:
+
+1. gcloud auth configure-docker europe-west1-docker.pkg.dev
+
+2. docker tag cloudrun-training:v1 europe-west1-docker.pkg.dev/balmy-mark-240704/training-containers/cloudrun-training:v1
+
+3. docker push europe-west1-docker.pkg.dev/balmy-mark-240704/training-containers/cloudrun-training:v1

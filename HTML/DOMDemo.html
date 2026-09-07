@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Demo</title>
+</head>
+<body>
+
+    <script>
+        const myButton = document.createElement("button");
+        myButton.textContent = "Click me!";
+        myButton.style.backgroundColor = "lightblue";
+        myButton.style.fontSize = "22px";
+        myButton.style.padding = "10px 20px";
+
+        myButton.addEventListener("click", function() {
+            alert("Hello JavaScript!");
+        });
+
+        document.body.appendChild(myButton);
+    </script>
+</body>
+</html>

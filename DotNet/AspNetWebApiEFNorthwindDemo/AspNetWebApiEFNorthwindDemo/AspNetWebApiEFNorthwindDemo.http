@@ -1,0 +1,6 @@
+@AspNetWebApiEFNorthwindDemo_HostAddress = http://localhost:5113
+
+GET {{AspNetWebApiEFNorthwindDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

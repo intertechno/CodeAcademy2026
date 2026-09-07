@@ -1,0 +1,2 @@
+DELETE FROM Orders
+WHERE OrderID = 10257;
