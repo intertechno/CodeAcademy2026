@@ -1,0 +1,7 @@
+To run this web application, execute the following:
+
+1. docker build -t hello-world-web-app .
+
+2. docker run --name hello-world-web-app -p 3000:3000 hello-world-web-app
+
+3. Access the application from: http://localhost:3000/
